@@ -2,7 +2,7 @@
 
 # This scripts filters the reads of a set of MiSeq samples based on length and
 # quality.
-# Remark: if lambo somehow can't handle the multithreading, there is some 
+# Remark: if the server somehow can't handle the multithreading, there is some 
 # alternative non-multithreaded code in this script. 
 
 # Author: Stijn Wittouck
