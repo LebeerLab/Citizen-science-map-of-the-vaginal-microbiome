@@ -1,0 +1,30 @@
+This folder contains the following files:
+
+DIRECTORY STRUCTURE            DESCRIPTION
+-- data/:
+ |-- vahmp/:                   The VaHMP data directory
+ | |-- embedding.pkl:            A cached embeddings file
+ | |-- vahmp_count_data.tsv:     count data
+ | |-- vahmp_meta_data.tsv:      metadata
+ |
+ |--valencia/:                 The VALENCIA data directory
+ | |-- embedding.pkl:            A cached embeddings file
+ | |-- counts.tsv:               count data
+ | |-- meta.tsv:                 metadata
+ |
+ |-- isala/:                   The Isala data directory
+   |-- embedding.pkl:            A cached embeddings file
+   |-- counts.pkl:               count data (in pandas pickle format)
+   |-- counts.tsv:               count data (in TSV format)
+   |-- metadata.pkl:             metadata (in pandas pickle format)
+   |-- metadata.tsv:             metadata (in TSV format)
+   |-- relative_abundance.tsv:   relative abundance data
+   |-- README:                   A readme file
+   |-- taxa_spec.tsv:            Taxa specification
+   |-- mda:                      A folder to store data of multidiffabundance input/output
+     |-- input_formulas.txt:       Formulas tested with multidiffabundance
+     |-- input_meta.tsv:           Metadata provided to multidiffabundance
+     |-- input_counts.tsv:         Count data provided to multidiffabundance
+     |-- results/:                 A folder to store multidiffabundance results
+      |-- results.tsv:               multidiffabundance output file
+
