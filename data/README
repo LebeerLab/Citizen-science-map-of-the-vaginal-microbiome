@@ -15,7 +15,7 @@ DIRECTORY STRUCTURE            DESCRIPTION
  | |-- sparcc_network.tsv        The network produced by SPARCC
  |
  |-- isala/:                   The Isala data directory
-   |-- asv_counts.tsv:           ASV counts (in TSV format)
+   |-- asv_counts.tsv.gz:        ASV counts (in TSV format)
    |-- asv_spec.tsv:             ASV specification
    |-- sparcc_network.tsv        The network produced by SPARCC
    |-- embedding.pkl:            A cached embeddings file
