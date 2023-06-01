@@ -31,4 +31,4 @@ DIRECTORY STRUCTURE            DESCRIPTION
      |-- input_meta.tsv:           Metadata provided to multidiffabundance
      |-- input_counts.tsv:         Count data provided to multidiffabundance
      |-- results/:                 A folder to store multidiffabundance results
-      |-- results.tsv:               multidiffabundance output file
+       |-- results.tsv:               multidiffabundance output file
