@@ -44,6 +44,8 @@ We also make the custom amplicon databases available; all of them are based on 1
 * [Lactobacillaceae only](https://github.com/SWittouck/datasets/raw/main/SSUrRNA_GTDB05-lactobacillaceae-all_DADA2.fna.gz)
 * [Lactobacillus only, with Lactobacillus replaced with subgenera](https://github.com/SWittouck/datasets/raw/main/SSUrRNA_GTDB05-lactobacillus-subgenera-all_DADA2.fna.gz)
 
+If you want to reclassify your own ASV data to the new Lactobacillus taxonomy and/or the Lactobacillus subgenera, you can find example code in `scripts-main/02-process-read-counts/02_reclassify_lactos.R`. 
+
 These are the type species we chose to define the Lactobacillus subgenera: 
 
 | subgenus                         | type species                |
