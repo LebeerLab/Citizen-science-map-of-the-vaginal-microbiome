@@ -6,13 +6,18 @@ DIRECTORY STRUCTURE            DESCRIPTION
  | |-- embedding.pkl:            A cached embeddings file
  | |-- vahmp_count_data.tsv:     count data
  | |-- vahmp_meta_data.tsv:      metadata
+ | |-- sparcc_network.tsv        The network produced by SPARCC
  |
  |--valencia/:                 The VALENCIA data directory
  | |-- embedding.pkl:            A cached embeddings file
  | |-- counts.tsv:               count data
  | |-- meta.tsv:                 metadata
+ | |-- sparcc_network.tsv        The network produced by SPARCC
  |
  |-- isala/:                   The Isala data directory
+   |-- asv_counts.tsv:           ASV counts (in TSV format)
+   |-- asv_spec.tsv:             ASV specification
+   |-- sparcc_network.tsv        The network produced by SPARCC
    |-- embedding.pkl:            A cached embeddings file
    |-- counts.pkl:               count data (in pandas pickle format)
    |-- counts.tsv:               count data (in TSV format)
@@ -27,4 +32,3 @@ DIRECTORY STRUCTURE            DESCRIPTION
      |-- input_counts.tsv:         Count data provided to multidiffabundance
      |-- results/:                 A folder to store multidiffabundance results
       |-- results.tsv:               multidiffabundance output file
-
